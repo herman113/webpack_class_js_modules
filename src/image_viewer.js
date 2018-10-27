@@ -10,4 +10,4 @@ document.body.appendChild(image);
 const bigImage = document.createElement('img');
 bigImage.src = big;
 
-document.body.appendChild(image);
+document.body.appendChild(bigImage);

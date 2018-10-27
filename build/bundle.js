@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "build/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 2);
@@ -93,7 +93,7 @@ document.body.appendChild(image);
 var bigImage = document.createElement('img');
 bigImage.src = _big2.default;
 
-document.body.appendChild(image);
+document.body.appendChild(bigImage);
 
 /***/ }),
 /* 1 */
