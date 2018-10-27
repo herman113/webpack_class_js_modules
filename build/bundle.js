@@ -73,10 +73,25 @@
 "use strict";
 
 
+var _big = __webpack_require__(4);
+
+var _big2 = _interopRequireDefault(_big);
+
+var _small = __webpack_require__(5);
+
+var _small2 = _interopRequireDefault(_small);
+
 __webpack_require__(3);
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var image = document.createElement('img');
-image.src = 'http://lorempixel.com/400/400';
+image.src = _small2.default;
+
+document.body.appendChild(image);
+
+var bigImage = document.createElement('img');
+bigImage.src = _big2.default;
 
 document.body.appendChild(image);
 
@@ -125,6 +140,18 @@ console.log(total);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: dyld: Library not loaded: /usr/local/opt/libpng/lib/libpng16.16.dylib\n  Referenced from: /Users/herman/Dropbox/js_modules/node_modules/mozjpeg/vendor/cjpeg\n  Reason: image not found\n\n    at Promise.all.then.arr (/Users/herman/Dropbox/js_modules/node_modules/execa/index.js:231:11)\n    at process._tickCallback (internal/process/next_tick.js:68:7)");
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: dyld: Library not loaded: /usr/local/opt/libpng/lib/libpng16.16.dylib\n  Referenced from: /Users/herman/Dropbox/js_modules/node_modules/mozjpeg/vendor/cjpeg\n  Reason: image not found\n\n    at Promise.all.then.arr (/Users/herman/Dropbox/js_modules/node_modules/execa/index.js:231:11)\n    at process._tickCallback (internal/process/next_tick.js:68:7)");
 
 /***/ })
 /******/ ]);
