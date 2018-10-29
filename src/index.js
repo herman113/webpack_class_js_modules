@@ -6,5 +6,5 @@ button.onclick = () => {
     module.default();
   });
 };
-
+//Added module.default(); to System.import
 document.body.appendChild(button);
